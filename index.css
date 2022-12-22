@@ -11,8 +11,7 @@
 .nav-pills .nav-link {
   border-radius: 0 !important;
 }
-body {
-}
+
 header {
   position: relative;
   width: calc(100%-30px) !important;
@@ -90,15 +89,25 @@ nav {
     background-image: url(./Untitled-1.png);
     background-size: 120%;
     background-repeat: no-repeat;
-    height: 100%;
-    min-height: 299px !important;
-
-    height: 350px !;
+    min-height: 340px !important;
+    height: 350px !important;
+  }
+  .home-container {
+    min-height: 1px;
+    height: auto;
+  }
+  body {
+    padding-top: 40px;
   }
 }
 @media only screen and (max-width: 750px) {
   .navbar-logo {
     width: 55% !important;
+  }
+  #divhasbackground {
+    min-height: 1px;
+    height: 510px;
+    /* height: auto; */
   }
 }
 @media only screen and (max-width: 600px) {
@@ -107,10 +116,9 @@ nav {
   }
   #divhasbackground {
     min-height: 440px;
+    height: 480px;
   }
-  .home-container {
-    min-height: 350px;
-  }
+
   .show {
     margin-top: 10px;
     transition: 0.1s ease-in-out;
