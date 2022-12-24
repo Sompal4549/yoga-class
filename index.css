@@ -78,9 +78,9 @@ nav {
   color: white;
   border-radius: 5px;
 }
-.about{
+.about {
   background-color: #6c9894;
-  background-image: url('/Untitled-1.png');
+  background-image: url("/Untitled-1.png");
 }
 .card-has-bg {
   max-height: 650px;
@@ -103,6 +103,14 @@ nav {
   /* aspect-ratio: 50%; */
   max-height: 250px;
   object-fit: contain;
+}
+.contact {
+  color: #6c9894;
+}
+.our-stats-card {
+  border: 2px solid #6c9894;
+  height: 370px;
+  color: #6c9894;
 }
 @media only screen and (max-width: 984px) {
   .img-container {
