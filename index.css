@@ -106,6 +106,13 @@ nav {
 }
 .contact {
   color: #6c9894;
+  background-image: url("./Untitled.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact-bg {
+  background-color: rgba(255, 255, 255, 0.9);
 }
 .our-stats-card {
   border: 2px solid #6c9894;
@@ -115,6 +122,9 @@ nav {
 @media only screen and (max-width: 984px) {
   .img-container {
     background-size: 60%;
+  }
+  .our-stats-card {
+    max-width: 320px;
   }
 }
 @media only screen and (max-width: 500px) {
